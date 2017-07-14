@@ -7,6 +7,7 @@ from catkin_pkg.python_setup import generate_distutils_setup
 setup_args = generate_distutils_setup(
     packages=['kalibr_errorterms',
               'kalibr_common',
+              'egg_timer',
               'kalibr_camera_calibration',
               'kalibr_imu_camera_calibration'],
     package_dir={'':'python'},
